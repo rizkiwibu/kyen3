@@ -19,5 +19,5 @@ for (let file of files) {
 }
 
 //** udah di fix bang
-//** © BOTCAHX
+//** © BOt tzy
 

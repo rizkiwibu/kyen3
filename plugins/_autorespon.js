@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'R-Txzy tidak aktif' : banned ? 'kamu dibanned' : 'R-Txzy disini',
-                '©R-Txzy',
+                isBanned ? 'BOT Tzy tidak aktif' : banned ? 'kamu dibanned' : 'R-Txzy disini',
+                '©BOT TJY',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -42,7 +42,7 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═ ©2021 Rpg wabot-aq
 ╠═ Script original by Nurutomo
-╠═〘 R-TXZY〙 ═`.trim(), '© R-Txzy', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
+╠═〘 tzy bot tod〙 ═`.trim(), 'BASE BOT TJY', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
 }
 
     // salam

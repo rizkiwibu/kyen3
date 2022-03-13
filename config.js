@@ -1,6 +1,6 @@
 // Thanks For Allah
 // AlyaaXzy
-// BOTCAHX
+// VERDI TZy
 
 
 let fs = require('fs')

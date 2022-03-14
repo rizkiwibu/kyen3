@@ -3,9 +3,9 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
 ┌〔 Donasi • Emoney 〕
-├ GoPay: 085706735450 [F]
-├ Dana: 085706735450 [F ]
-├ Pulsa: 083869803330 [F]
+├ GoPay: 083817161861 [F]
+├ Dana: 083817161861 [F ]
+├ Pulsa: 083817161861 [F]
 └────
 `.trim(), watermark, 'Menu', '.menu', m)
 handler.help = ['donasi']
